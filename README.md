@@ -38,13 +38,13 @@ conda activate t-graasp
 This project provides detailed tutorial notebooks to help you get started quickly.  
 After installing the environment, simply open the following Jupyter notebooks in the repository:
 
-- **[Pretrain.ipynb](https://github.com/caofy0307/T-GRAASP/blob/main/Pretrain.ipynb)**  
+- **[Pretrain.ipynb](https://github.com/caofy0307/T-GRAASP/tree/main/tutorials/Pretrain.ipynb)**  
   *This notebook demonstrates the pretraining workflow of the T-GRAASP model. Use it to learn how to prepare your data and pretrain the model for spatial transcriptomics analysis.*
 
-- **[Finetuned.ipynb](https://github.com/caofy0307/T-GRAASP/blob/main/Finetuned.ipynb)**  
+- **[Finetuned.ipynb](https://github.com/caofy0307/T-GRAASP/tree/main/tutorials/Finetuned.ipynb)**  
   *This notebook shows how to fine-tune the pretrained T-GRAASP model on your own datasets and analyze results, including visualization and downstream analyses.*
 
-- **[Downstream.ipynb](https://github.com/caofy0307/T-GRAASP/blob/main/Downstream.ipynb)**  
+- **[Downstream.ipynb](https://github.com/caofy0307/T-GRAASP/tree/main/tutorials/Downstream.ipynb)**  
   *This notebook provides downstream biological analysis and rich visualization examples, helping you to interpret and explore the results from T-GRAASP in a biological context.*
 
 #### How to run the tutorials:
