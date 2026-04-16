@@ -1,0 +1,73 @@
+12:35:12  ============================================================
+12:35:12    Start Pretrain  (best_by='auc')
+12:35:12  ============================================================
+12:35:26  [Pretrain] Epoch 001 | Dataset 00 | ARI 0.063 | ACC 0.173 | NMI 0.135 | AUC 0.509 | AP 0.539 | ACC1 0.500
+12:35:26  [Pretrain] Epoch 001 | Dataset 01 | ARI 0.156 | ACC 0.197 | NMI 0.202 | AUC 0.487 | AP 0.535 | ACC1 0.500
+12:35:26  Epoch 001 | Avg Loss 19.0106 | Mean AUC 0.4977 | Best 0.0000 (Epoch 0)
+12:35:26  ✔ New best (by auc) at epoch 1  →  best_model_auc_mean.pkl
+12:35:37  [Pretrain] Epoch 002 | Dataset 00 | ARI 0.115 | ACC 0.242 | NMI 0.178 | AUC 0.506 | AP 0.543 | ACC1 0.500
+12:35:37  [Pretrain] Epoch 002 | Dataset 01 | ARI 0.257 | ACC 0.299 | NMI 0.277 | AUC 0.494 | AP 0.542 | ACC1 0.500
+12:35:37  Epoch 002 | Avg Loss 18.9062 | Mean AUC 0.5002 | Best 0.4977 (Epoch 1)
+12:35:37  ✔ New best (by auc) at epoch 2  →  best_model_auc_mean.pkl
+12:35:48  [Pretrain] Epoch 003 | Dataset 00 | ARI 0.174 | ACC 0.308 | NMI 0.230 | AUC 0.504 | AP 0.546 | ACC1 0.500
+12:35:48  [Pretrain] Epoch 003 | Dataset 01 | ARI 0.351 | ACC 0.381 | NMI 0.353 | AUC 0.501 | AP 0.546 | ACC1 0.500
+12:35:48  Epoch 003 | Avg Loss 18.7675 | Mean AUC 0.5025 | Best 0.5002 (Epoch 2)
+12:35:49  ✔ New best (by auc) at epoch 3  →  best_model_auc_mean.pkl
+12:36:00  [Pretrain] Epoch 004 | Dataset 00 | ARI 0.227 | ACC 0.364 | NMI 0.276 | AUC 0.503 | AP 0.547 | ACC1 0.500
+12:36:00  [Pretrain] Epoch 004 | Dataset 01 | ARI 0.417 | ACC 0.432 | NMI 0.408 | AUC 0.505 | AP 0.549 | ACC1 0.500
+12:36:00  Epoch 004 | Avg Loss 18.6635 | Mean AUC 0.5039 | Best 0.5025 (Epoch 3)
+12:36:00  ✔ New best (by auc) at epoch 4  →  best_model_auc_mean.pkl
+12:36:11  [Pretrain] Epoch 005 | Dataset 00 | ARI 0.267 | ACC 0.408 | NMI 0.322 | AUC 0.503 | AP 0.550 | ACC1 0.500
+12:36:11  [Pretrain] Epoch 005 | Dataset 01 | ARI 0.456 | ACC 0.465 | NMI 0.443 | AUC 0.508 | AP 0.551 | ACC1 0.500
+12:36:11  Epoch 005 | Avg Loss 18.5693 | Mean AUC 0.5057 | Best 0.5039 (Epoch 4)
+12:36:11  ✔ New best (by auc) at epoch 5  →  best_model_auc_mean.pkl
+12:36:21  [Pretrain] Epoch 006 | Dataset 00 | ARI 0.296 | ACC 0.439 | NMI 0.356 | AUC 0.504 | AP 0.552 | ACC1 0.500
+12:36:21  [Pretrain] Epoch 006 | Dataset 01 | ARI 0.483 | ACC 0.494 | NMI 0.470 | AUC 0.512 | AP 0.553 | ACC1 0.500
+12:36:21  Epoch 006 | Avg Loss 18.4561 | Mean AUC 0.5077 | Best 0.5057 (Epoch 5)
+12:36:21  ✔ New best (by auc) at epoch 6  →  best_model_auc_mean.pkl
+12:36:32  [Pretrain] Epoch 007 | Dataset 00 | ARI 0.329 | ACC 0.470 | NMI 0.390 | AUC 0.504 | AP 0.553 | ACC1 0.500
+12:36:32  [Pretrain] Epoch 007 | Dataset 01 | ARI 0.516 | ACC 0.527 | NMI 0.499 | AUC 0.515 | AP 0.554 | ACC1 0.500
+12:36:32  Epoch 007 | Avg Loss 18.3481 | Mean AUC 0.5094 | Best 0.5077 (Epoch 6)
+12:36:32  ✔ New best (by auc) at epoch 7  →  best_model_auc_mean.pkl
+12:36:44  [Pretrain] Epoch 008 | Dataset 00 | ARI 0.354 | ACC 0.488 | NMI 0.418 | AUC 0.508 | AP 0.557 | ACC1 0.500
+12:36:44  [Pretrain] Epoch 008 | Dataset 01 | ARI 0.531 | ACC 0.559 | NMI 0.516 | AUC 0.521 | AP 0.556 | ACC1 0.500
+12:36:44  Epoch 008 | Avg Loss 18.2077 | Mean AUC 0.5144 | Best 0.5094 (Epoch 7)
+12:36:44  ✔ New best (by auc) at epoch 8  →  best_model_auc_mean.pkl
+12:36:54  [Pretrain] Epoch 009 | Dataset 00 | ARI 0.378 | ACC 0.509 | NMI 0.445 | AUC 0.592 | AP 0.603 | ACC1 0.500
+12:36:54  [Pretrain] Epoch 009 | Dataset 01 | ARI 0.540 | ACC 0.587 | NMI 0.530 | AUC 0.490 | AP 0.533 | ACC1 0.500
+12:36:54  Epoch 009 | Avg Loss 18.0577 | Mean AUC 0.5409 | Best 0.5144 (Epoch 8)
+12:36:54  ✔ New best (by auc) at epoch 9  →  best_model_auc_mean.pkl
+12:37:05  [Pretrain] Epoch 010 | Dataset 00 | ARI 0.393 | ACC 0.524 | NMI 0.466 | AUC 0.504 | AP 0.563 | ACC1 0.500
+12:37:05  [Pretrain] Epoch 010 | Dataset 01 | ARI 0.551 | ACC 0.616 | NMI 0.546 | AUC 0.485 | AP 0.527 | ACC1 0.500
+12:37:05  Epoch 010 | Avg Loss 17.9982 | Mean AUC 0.4940 | Best 0.5409 (Epoch 9)
+12:37:17  [Pretrain] Epoch 011 | Dataset 00 | ARI 0.404 | ACC 0.536 | NMI 0.486 | AUC 0.502 | AP 0.563 | ACC1 0.500
+12:37:17  [Pretrain] Epoch 011 | Dataset 01 | ARI 0.558 | ACC 0.642 | NMI 0.556 | AUC 0.483 | AP 0.526 | ACC1 0.500
+12:37:17  Epoch 011 | Avg Loss 17.8961 | Mean AUC 0.4924 | Best 0.5409 (Epoch 9)
+12:37:29  [Pretrain] Epoch 012 | Dataset 00 | ARI 0.411 | ACC 0.544 | NMI 0.499 | AUC 0.504 | AP 0.565 | ACC1 0.500
+12:37:29  [Pretrain] Epoch 012 | Dataset 01 | ARI 0.568 | ACC 0.664 | NMI 0.567 | AUC 0.482 | AP 0.527 | ACC1 0.500
+12:37:29  Epoch 012 | Avg Loss 17.8482 | Mean AUC 0.4929 | Best 0.5409 (Epoch 9)
+12:37:40  [Pretrain] Epoch 013 | Dataset 00 | ARI 0.419 | ACC 0.555 | NMI 0.507 | AUC 0.509 | AP 0.569 | ACC1 0.500
+12:37:40  [Pretrain] Epoch 013 | Dataset 01 | ARI 0.575 | ACC 0.687 | NMI 0.575 | AUC 0.483 | AP 0.530 | ACC1 0.500
+12:37:40  Epoch 013 | Avg Loss 17.8075 | Mean AUC 0.4963 | Best 0.5409 (Epoch 9)
+12:37:50  [Pretrain] Epoch 014 | Dataset 00 | ARI 0.428 | ACC 0.565 | NMI 0.515 | AUC 0.527 | AP 0.578 | ACC1 0.500
+12:37:50  [Pretrain] Epoch 014 | Dataset 01 | ARI 0.579 | ACC 0.703 | NMI 0.578 | AUC 0.485 | AP 0.535 | ACC1 0.500
+12:37:50  Epoch 014 | Avg Loss 17.7503 | Mean AUC 0.5057 | Best 0.5409 (Epoch 9)
+12:38:02  [Pretrain] Epoch 015 | Dataset 00 | ARI 0.436 | ACC 0.574 | NMI 0.523 | AUC 0.627 | AP 0.619 | ACC1 0.500
+12:38:02  [Pretrain] Epoch 015 | Dataset 01 | ARI 0.584 | ACC 0.717 | NMI 0.587 | AUC 0.489 | AP 0.540 | ACC1 0.500
+12:38:02  Epoch 015 | Avg Loss 17.7297 | Mean AUC 0.5576 | Best 0.5409 (Epoch 9)
+12:38:02  ✔ New best (by auc) at epoch 15  →  best_model_auc_mean.pkl
+12:38:12  [Pretrain] Epoch 016 | Dataset 00 | ARI 0.446 | ACC 0.586 | NMI 0.533 | AUC 0.711 | AP 0.671 | ACC1 0.500
+12:38:12  [Pretrain] Epoch 016 | Dataset 01 | ARI 0.591 | ACC 0.730 | NMI 0.593 | AUC 0.496 | AP 0.548 | ACC1 0.500
+12:38:12  Epoch 016 | Avg Loss 17.6379 | Mean AUC 0.6039 | Best 0.5576 (Epoch 15)
+12:38:13  ✔ New best (by auc) at epoch 16  →  best_model_auc_mean.pkl
+12:38:25  [Pretrain] Epoch 017 | Dataset 00 | ARI 0.457 | ACC 0.597 | NMI 0.542 | AUC 0.725 | AP 0.684 | ACC1 0.500
+12:38:25  [Pretrain] Epoch 017 | Dataset 01 | ARI 0.597 | ACC 0.738 | NMI 0.597 | AUC 0.504 | AP 0.555 | ACC1 0.500
+12:38:25  Epoch 017 | Avg Loss 17.6066 | Mean AUC 0.6149 | Best 0.6039 (Epoch 16)
+12:38:25  ✔ New best (by auc) at epoch 17  →  best_model_auc_mean.pkl
+12:38:35  [Pretrain] Epoch 018 | Dataset 00 | ARI 0.463 | ACC 0.604 | NMI 0.545 | AUC 0.729 | AP 0.690 | ACC1 0.500
+12:38:35  [Pretrain] Epoch 018 | Dataset 01 | ARI 0.606 | ACC 0.750 | NMI 0.608 | AUC 0.527 | AP 0.567 | ACC1 0.500
+12:38:35  Epoch 018 | Avg Loss 17.5698 | Mean AUC 0.6280 | Best 0.6149 (Epoch 17)
+12:38:35  ✔ New best (by auc) at epoch 18  →  best_model_auc_mean.pkl
+12:38:47  [Pretrain] Epoch 019 | Dataset 00 | ARI 0.475 | ACC 0.615 | NMI 0.552 | AUC 0.730 | AP 0.691 | ACC1 0.500
+12:38:47  [Pretrain] Epoch 019 | Dataset 01 | ARI 0.612 | ACC 0.759 | NMI 0.612 | AUC 0.522 | AP 0.566 | ACC1 0.500
+12:38:47  Epoch 019 | Avg Loss 17.4861 | Mean AUC 0.6259 | Best 0.6280 (Epoch 18)

@@ -1,0 +1,49 @@
+12:56:27  ============================================================
+12:56:27    Fine-tuning [V1+V2 Merged, Auto-Balanced]
+12:56:27  ============================================================
+12:56:27    Trainable params: 36032000
+12:56:27    Pre-computing Spatial Enrichment GT (n_perms=500)...
+12:56:27      SP[0] enrichment shape: (14, 14)
+12:56:28      SP[1] enrichment shape: (13, 13)
+12:56:28    Pre-computing spatial targets...
+12:56:32      SP[0] centroids: torch.Size([18, 16])
+12:56:32      SP[1] centroids: torch.Size([14, 16])
+12:56:32    __m__ dim=2000, z dim=16, use_m_for_mse=False
+12:56:32    Computing auto-scale (warmup)...
+12:56:37    [SCALE] raw_recon=0.014288  raw_mse=0.012428
+12:56:37    [SCALE] recon_scale=7.00e+01  mse_scale=8.05e+01
+12:56:37    [SCALE] w_recon=69.9900  w_mse=80.4605
+12:56:37  ============================================================
+12:57:06  [FT] Ep 001 | Loss 1.6623 (R:116.3440 M:0.8017) | Corr 0.1687 | AUC 0.6254 | LR 1.00e-04
+12:57:06    ✔ Best! Corr=0.1687  →  checkpoints/best_finetune_model.pkl
+12:57:35  [FT] Ep 002 | Loss 6.4477 (R:451.2732 M:5.2365) | Corr 0.1679 | AUC 0.6254 | LR 1.00e-04
+12:58:04  [FT] Ep 003 | Loss 2.3703 (R:165.8970 M:0.8562) | Corr 0.1667 | AUC 0.6254 | LR 1.00e-04
+12:58:33  [FT] Ep 004 | Loss 1.6482 (R:115.3577 M:0.5342) | Corr 0.1422 | AUC 0.6254 | LR 1.00e-04
+12:59:03  [FT] Ep 005 | Loss 1.4438 (R:101.0489 M:0.6378) | Corr 0.1250 | AUC 0.6254 | LR 1.00e-04
+12:59:31  [FT] Ep 006 | Loss 1.1922 (R:83.4397 M:0.4495) | Corr 0.1335 | AUC 0.6254 | LR 1.00e-04
+13:00:00  [FT] Ep 007 | Loss 1.1606 (R:81.2322 M:0.4332) | Corr 0.1304 | AUC 0.6254 | LR 1.00e-04
+13:00:29  [FT] Ep 008 | Loss 1.0308 (R:72.1424 M:0.4152) | Corr 0.1375 | AUC 0.6254 | LR 1.00e-04
+13:00:59  [FT] Ep 009 | Loss 0.9062 (R:63.4241 M:0.3249) | Corr 0.1554 | AUC 0.6254 | LR 1.00e-04
+13:01:27  [FT] Ep 010 | Loss 0.8027 (R:56.1813 M:0.2419) | Corr 0.1623 | AUC 0.6254 | LR 1.00e-04
+13:01:56  [FT] Ep 011 | Loss 0.7587 (R:53.1008 M:0.2061) | Corr 0.1622 | AUC 0.6254 | LR 1.00e-04
+13:02:26  [FT] Ep 012 | Loss 0.7193 (R:50.3455 M:0.1947) | Corr 0.1631 | AUC 0.6254 | LR 1.00e-04
+13:02:55  [FT] Ep 013 | Loss 0.6754 (R:47.2716 M:0.1969) | Corr 0.1656 | AUC 0.6254 | LR 5.00e-05
+13:03:24  [FT] Ep 014 | Loss 0.6483 (R:45.3729 M:0.1944) | Corr 0.1693 | AUC 0.6254 | LR 5.00e-05
+13:03:25    ✔ Best! Corr=0.1693  →  checkpoints/best_finetune_model.pkl
+13:03:54  [FT] Ep 015 | Loss 0.6333 (R:44.3265 M:0.1876) | Corr 0.1715 | AUC 0.6254 | LR 5.00e-05
+13:03:54    ✔ Best! Corr=0.1715  →  checkpoints/best_finetune_model.pkl
+13:04:24  [FT] Ep 016 | Loss 0.6147 (R:43.0239 M:0.1778) | Corr 0.1696 | AUC 0.6254 | LR 5.00e-05
+13:04:53  [FT] Ep 017 | Loss 0.5925 (R:41.4659 M:0.1646) | Corr 0.1676 | AUC 0.6254 | LR 5.00e-05
+13:05:23  [FT] Ep 018 | Loss 0.5815 (R:40.6979 M:0.1577) | Corr 0.1707 | AUC 0.6254 | LR 5.00e-05
+13:05:52  [FT] Ep 019 | Loss 0.5606 (R:39.2387 M:0.1505) | Corr 0.1777 | AUC 0.6254 | LR 5.00e-05
+13:05:52    ✔ Best! Corr=0.1777  →  checkpoints/best_finetune_model.pkl
+13:06:22  [FT] Ep 020 | Loss 0.5434 (R:38.0317 M:0.1458) | Corr 0.1822 | AUC 0.6254 | LR 5.00e-05
+13:06:22    ✔ Best! Corr=0.1822  →  checkpoints/best_finetune_model.pkl
+13:06:52  [FT] Ep 021 | Loss 0.5339 (R:37.3685 M:0.1480) | Corr 0.1837 | AUC 0.6254 | LR 5.00e-05
+13:06:52    ✔ Best! Corr=0.1837  →  checkpoints/best_finetune_model.pkl
+13:07:22  [FT] Ep 022 | Loss 0.5191 (R:36.3289 M:0.1496) | Corr 0.1855 | AUC 0.6254 | LR 5.00e-05
+13:07:22    ✔ Best! Corr=0.1855  →  checkpoints/best_finetune_model.pkl
+13:07:52  [FT] Ep 023 | Loss 0.5068 (R:35.4742 M:0.1491) | Corr 0.1889 | AUC 0.6254 | LR 5.00e-05
+13:07:52    ✔ Best! Corr=0.1889  →  checkpoints/best_finetune_model.pkl
+13:08:22  [FT] Ep 024 | Loss 0.4908 (R:34.3527 M:0.1419) | Corr 0.2005 | AUC 0.6254 | LR 5.00e-05
+13:08:22    ✔ Best! Corr=0.2005  →  checkpoints/best_finetune_model.pkl
